@@ -78,13 +78,69 @@ button {
   text-align: center;
 }
 
-.contact-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+.contact-section {
+  background: white;
+  padding: 40px 20px;
+  margin: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.section-title {
+  color: #2c3e50;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  background: #f8f9fa;
   padding: 15px;
-  border-radius: 50%;
-  background: #e74c3c;
-  color: white;
-  border: none;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+.connect-title {
+  color: #1abc9c;
+  margin-top: 30px !important;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.social-btn {
+  background: #4267b2; /* Facebook blue */
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.3s;
+}
+
+.social-btn:hover {
+  transform: translateY(-3px);
+}
+
+.social-btn i {
+  font-size: 1.2em;
+}
+
+.contact-btn {
+  background: #24e68b; /* Red for urgency */
+  padding: 10px 25px;
+  border-radius: 50px;
 }

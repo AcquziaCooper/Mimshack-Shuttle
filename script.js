@@ -25,7 +25,7 @@ document.getElementById("bookingForm").addEventListener("submit", function (e) {
 
   // Display price
   document.getElementById("priceResult").innerHTML = `
-        <h3>💰 Estimated Price: R${price}</h3>
+        <h3>💰 Estimated Price: R35${price}</h3>
         <p>🕒 Your booking for ${destination} at ${rideTime} is being processed!</p>
     `;
 });
@@ -37,5 +37,5 @@ function calculatePrice(service, destination) {
 
 // Contact button action
 document.querySelector(".contact-btn").addEventListener("click", function () {
-  window.location.href = "tel:+27123456789"; // Replace with your number
+  window.location.href = "tel:+27649357895";
 });
