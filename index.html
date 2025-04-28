@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mimshack Shuttles - Barberton 1300</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🚐 Mimshack Shuttles</h1>
+      <p>Your Reliable Ride in Barberton, MP • Since 2019</p>
+    </header>
+
+    <section class="services">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <div class="service-item">🚙 Errands</div>
+        <div class="service-item">🚕 Cab/Taxi</div>
+        <div class="service-item">👔 Chauffeur</div>
+        <div class="service-item">🌍 Long Distance</div>
+      </div>
+    </section>
+
+    <section class="booking">
+      <h2>Book a Ride</h2>
+      <form id="bookingForm">
+        <input
+          type="text"
+          placeholder="Destination (e.g., Barberton Mall)"
+          required
+        />
+        <select id="serviceType">
+          <option value="cab">Cab/Taxi</option>
+          <option value="errands">Errands</option>
+          <option value="chauffeur">Chauffeur</option>
+          <option value="long-distance">Long Distance</option>
+        </select>
+        <input type="date" id="rideDate" required />
+        <input type="time" id="rideTime" required />
+        <button type="submit">Calculate Price & Book</button>
+      </form>
+      <div id="priceResult"></div>
+    </section>
+
+    <section class="drivers">
+      <h2>Meet Your Drivers</h2>
+      <div class="driver-grid">
+        <div class="driver-card">
+          <img src="driver1-placeholder.jpg" alt="Driver John" />
+          <h3>John Doe</h3>
+          <p>📞 +27 12 345 6789</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="map">
+      <h2>Our Coverage Area</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114584.22904512067!2d30.989217!3d-25.794194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee6e3aaf5b1c8a5%3A0x6a77eef1fdb8f1b5!2sBarberton%2C%201300!5e0!3m2!1sen!2sza!4v1717080000000!5m2!1sen!2sza"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      >
+      </iframe>
+    </section>
+
+    <button class="contact-btn">📞 Contact Us</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
