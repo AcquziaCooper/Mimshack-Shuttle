@@ -6,9 +6,8 @@ body {
 }
 
 header {
-  background-image: url("images/Mimshack.jpg");
   text-align: center;
-  background: url("images/Mimshack.jpg");
+  background: rgb(35, 199, 130));
   color: white;
   padding: 20px;
 }
